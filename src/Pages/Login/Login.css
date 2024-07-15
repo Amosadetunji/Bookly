@@ -1,0 +1,151 @@
+.login-content{
+    display: block;
+    align-items: center;
+    padding-left: 103px;
+    padding-right: 105px;
+}
+.login-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+}
+.login-contact h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:50px ;
+    font-weight:700 ;
+    line-height: 15px;
+    color: #000000;
+}
+.add-log{
+    font-size: 35px;
+}
+.closed-log{
+    font-size: 45px;
+}
+.login-p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:18px ;
+    font-weight:300 ;
+    line-height: 15px;
+    color: #000000;
+    padding-top: 48px;
+}
+.login-form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+.logform-container{
+    padding-top: 41px;
+}
+.logform-control{
+    margin-top: 30px;
+}
+.logform-control label{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:24px ;
+    font-weight:400 ;
+    line-height: 15px;
+    color: #000000;
+    display: block;
+    margin-bottom: 10px;
+}
+.logform-control input{
+    width: 507px;
+    height: 60px;
+    border-radius:15px ;
+    border:1px solid #000000 ;
+}
+.logform-container .forgot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.forgot{
+    padding-top: 52px;
+    padding-bottom: 103px;
+}
+.forgot .rectangle{
+    font-size: 25px;
+}
+.forgot p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:20px ;
+    font-weight:400 ;
+    line-height: 30px;
+    color: #000000;
+}
+.forgot span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:20px ;
+    font-weight:400 ;
+    line-height: 30px;
+    color: #000000;
+}
+.logform button{
+    width: 507px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    border:none;
+    background-color: #E77D2C;
+    font-weight: 600;
+    font-size:25px ;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.logform button:hover{
+    opacity: 50%;
+    color: #FFFFFF;
+}
+.logform h3{
+    padding-left: 78px;
+    padding-top: 57px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:25px ;
+    font-weight:400 ;
+    line-height: 30px;
+    color: #000000;
+}
+.logform h3 span{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:20px ;
+    font-weight:400 ;
+    line-height: 30px;
+    color:  #E77D2C;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.logform h3 span:hover{
+    opacity: 50%;
+    color: #E77D2C;
+}
+.logdown-path h2{
+    display: grid;
+    place-items: center;
+    padding-top: 202px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:25px ;
+    font-weight:600 ;
+    line-height: 30px;
+    color: #000000;
+}
+.logicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 34px;
+}
+.logicon .logfb{
+    display: grid;
+    place-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-size: 40px;
+}

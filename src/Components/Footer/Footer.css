@@ -1,0 +1,112 @@
+.footercontainer{
+    background-color: #212121;
+    padding-top: 42px;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+.back{
+    display: block;
+    text-align: center;
+}
+.backarrow{
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.back h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:24Px ;
+    font-weight:400 ;
+    line-height: 32.74px;
+    color: #FFFFFF;
+}
+.parentfooter-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 79px;
+}
+.downfooter-div{
+    display: flex;
+    justify-content: space-between;
+}
+.booklyfooter p{
+    width:293px ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:18px ;
+    font-weight:400 ;
+    line-height: 24.55px;
+    color: #FFFFFF;
+    padding-top: 29px;
+}
+.booklyfooter-p p{
+    /* width:293px ; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:18px ;
+    font-weight:500 ;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.booklyfooter-p .pppp{
+    padding-bottom:10px ;
+}
+.booklyfooter-p h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:28px ;
+    font-weight:700 ;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.booklyfooter-pp{
+    padding-bottom: 30px;
+}
+.downfooter-div{
+    padding-top: 100px;
+    padding-bottom: 41px;
+}
+.downfooter-div p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:16px ;
+    font-weight:300 ;
+    line-height: 21.82px;
+    color: #FFFFFF;
+}
+.booklyfooter-form{
+    width: 292px;
+    max-width: 100%;
+    position: relative;
+}
+.booklyfooter-form input{
+    /* width: 292px; */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:14px ;
+    font-weight:500 ;
+    line-height: 17.5px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: #E87E2E;
+    color: #FFFFFF;
+    border-radius: 15px;
+    width: 100%;
+}
+.booklyfooter-form button{
+    width: 70px;
+    background-color: #FFFFFF;
+    height: 100%;
+    border: 3px;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.booklyfooter-form button:hover{
+    opacity: 50%;
+    color: #2b2a2a;
+}
+.arrowright{
+    font-size: 40px;
+}
