@@ -1,148 +1,161 @@
-.signup-content{
-    display: block;
-    align-items: center;
-    padding-left: 103px;
-    padding-right: 105px;
+.signup-content {
+  display: block;
+  align-items: center;
+  padding-left: 103px;
+  padding-right: 105px;
 }
-.add-contact{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 55px;
+.add-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
 }
-.add-contact h2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:50px ;
-    font-weight:700 ;
-    line-height: 15px;
-    color: #000000;
+.add-contact h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #000000;
 }
-.add{
-    font-size: 35px;
+.add {
+  font-size: 35px;
 }
-.closed{
-    font-size: 45px;
+.closed {
+  font-size: 45px;
 }
-.signup-p{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:18px ;
-    font-weight:300 ;
-    line-height: 15px;
-    color: #000000;
-    padding-top: 48px;
+.signup-p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 15px;
+  color: #000000;
+  padding-top: 48px;
 }
-.signup-form{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 37px;
+.signup-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
 }
-.form-container{
-    padding-top: 41px;
+.form-container {
+  padding-top: 41px;
 }
-.form-control{
-    margin-top: 30px;
+.form-control {
+  margin-top: 30px;
 }
-.form-control label{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:24px ;
-    font-weight:400 ;
-    line-height: 15px;
-    color: #000000;
-    display: block;
-    margin-bottom: 10px;
+.form-control label {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #000000;
+  display: block;
+  margin-bottom: 10px;
 }
-.form-control input{
-    width: 507px;
-    height: 60px;
-    border-radius:15px ;
-    border:1px solid #000000 ;
+.form-control input {
+  width: 507px;
+  height: 60px;
+  border-radius: 15px;
+  display: block;
+  border: 1px solid #000000;
+  padding: 10px;
+  font-size: 20px;
 }
-.form p{
-    width: 457px;
-    padding-top: 17px;
-    padding-bottom: 32px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:20px ;
-    font-weight:400 ;
-    line-height: 30px;
-    color: #000000;
+.form p {
+  width: 457px;
+  padding-top: 17px;
+  padding-bottom: 32px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
 }
-.form p span{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:20px ;
-    font-weight:400 ;
-    line-height: 30px;
-    color: #E77D2C;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
+.form p span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #e77d2c;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.form p span:hover{
-    opacity: 50%;
-    color: #E77D2C;
+.form p span:hover {
+  opacity: 50%;
+  color: #e77d2c;
 }
-.form button{
-    width: 507px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 15px;
-    border:none;
-    background-color: #E77D2C;
-    font-weight: 600;
-    font-size:25px ;
-    line-height: 30px;
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
+.form button {
+  width: 507px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: #e77d2c;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.form button:hover{
-    opacity: 50%;
-    color: #FFFFFF;
+.form button:hover {
+  opacity: 50%;
+  color: #ffffff;
 }
-.form h3{
-    padding-left: 78px;
-    padding-top: 31px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:25px ;
-    font-weight:400 ;
-    line-height: 30px;
-    color: #000000;
+.form h3 {
+  padding-left: 78px;
+  padding-top: 31px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000000;
 }
-.form h3 span{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:20px ;
-    font-weight:400 ;
-    line-height: 30px;
-    color:  #E77D2C;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
+.form h3 span {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #e77d2c;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.form h3 span:hover{
-    opacity: 50%;
-    color: #E77D2C;
+.form h3 span:hover {
+  opacity: 50%;
+  color: #e77d2c;
 }
-.down-path h2{
-    display: grid;
-    place-items: center;
-    padding-top: 38px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:25px ;
-    font-weight:600 ;
-    line-height: 30px;
-    color: #000000;
+.down-path h2 {
+  display: grid;
+  place-items: center;
+  padding-top: 38px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000000;
 }
-.icon-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    gap: 34px;
+.icon-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 86px;
+  gap: 34px;
 }
-.icon-group .fb{
-    display: grid;
-    place-items: center;
-    width: 70px;
-    height: 70px;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    font-size: 40px;
+.icon-group .fb {
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-size: 40px;
 }
+
+#error-border{
+  border: 1px solid red
+}
+.form-control span{
+  /* border-bottom: 10px; */
+  color: red;
+}
+

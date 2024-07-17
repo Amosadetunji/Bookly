@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Login.css'
 import Navbar2 from '../../Components/Navbar2/Navbar2'
 import { PiUserCircleLight } from "react-icons/pi";
@@ -9,14 +9,83 @@ import { SiApple } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa";
 import { PiRectangle } from "react-icons/pi";
 import { useNavigate } from 'react-router-dom';
+import axios from 'axios'
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 
 
 const Login = () => {
   const navigate = useNavigate()
   const handleLogin = () => {navigate('/signup')}
+
+  const [loader, setLoader] = useState(false)
+    const [data, setData] = useState({
+        email: '',
+        password: '',
+    })
+
+    const [error, setError] = useState()
+    
+    const handleChange = (e) => {
+      console.log(e);
+        const {name, value} = e.target
+        setData({
+            ...data, 
+            [name]: value
+        })
+    }
+    const handleValidation2 = () => {
+      let newErrors = {};
+
+    
+      if (!data.email) {
+        newErrors.email = "Email is required";
+      }
+      
+      if (!data.password) {
+        newErrors.password = "Password is required";
+      }
+      if(data.password.length < 7){
+        newErrors.password = 'Password must be more than 6 characters '
+      }
+      
+      setError(newErrors);
+  
+      return Object.keys(newErrors).length === 0;
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        // setLoader(true)
+        const isValid = handleValidation2()
+        if (isValid) {
+          axios.post('https://medical-records-app-1.onrender.com/api/v1/admin/login', data)
+          .then(response => {
+              console.log(response);
+              toast.success(response.data.message)
+              // setLoader(false)
+              if (response.status === 200) {
+                  setInterval(() => { 
+                      navigate('/signup')
+                  }, 2000);
+              }
+          })
+          .catch(error => {
+              console.log(error);
+              toast.error(error.response.data.message)
+          })
+          .finally(() => {
+              setLoader(false)
+          })
+        }
+      }
+
+
+  
+
   return (
     <div className='Login'>
+      <ToastContainer />
         <Navbar2/>
         <div className='login-content'>
           <div className='login-contact'>
@@ -28,14 +97,16 @@ const Login = () => {
           </div>
           <div className='login-form'>
             <div className='logform-container'>
-              <form className='logform'>
+              <form className='logform'  onSubmit={handleSubmit}>
                 <div className='logform-control'>
                   <label>Email</label>
-                  <input type="email"/>
+                  <input type="email"  name='email' value={data.email} onChange={handleChange} id={error?.email?'error-border': ''}/>
+                  {error?.email && <span>{error?.email}</span>}
                 </div>
                 <div className='logform-control'>
                   <label>Password</label>
-                  <input type="password"/>
+                  <input type="password" name='password' value={data.password} onChange={handleChange} id={error?.password?'error-border': ''}/>
+                  {error?.password && <span>{error?.password}</span>}
                 </div>
                 <div className='forgot'>
                 <p><PiRectangle className='rectangle'/>Remember password</p>

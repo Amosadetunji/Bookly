@@ -56,6 +56,9 @@
     height: 60px;
     border-radius:15px ;
     border:1px solid #000000 ;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
 }
 .logform-container .forgot{
     display: flex;
@@ -63,6 +66,8 @@
     
 }
 .forgot{
+    display: flex;
+    align-items: center;
     padding-top: 52px;
     padding-bottom: 103px;
 }
@@ -138,6 +143,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 86px;
     gap: 34px;
 }
 .logicon .logfb{
@@ -148,4 +154,10 @@
     border-radius: 10px;
     border: 1px solid #000000;
     font-size: 40px;
+}
+#error-border{
+    border: 1px solid red
+  }
+.logform-control span{
+    color: red;
 }
