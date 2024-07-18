@@ -6,6 +6,8 @@ import Signup from './Pages/Signup/Signup'
 import Login from './Pages/Login/Login'
 import Forgotpassword from './Pages/Forgotpassword/Forgotpassword'
 import Resetpassword from './Pages/Resetpassword/Resetpassword'
+import Myaccount from './Pages/Myaccount/Myaccount'
+import Resetsus from './Pages/Resetsus/Resetsus'
 function App() {
   
 
@@ -17,6 +19,8 @@ function App() {
       <Route path='login' element={<Login/>}/>
       <Route path='forgotpassword' element={<Forgotpassword/>}/>
       <Route path='resetpassword' element={<Resetpassword/>}/>
+      <Route path='Myaccount' element={<Myaccount/>}/>
+      <Route path='Resetsus' element={<Resetsus/>}/>
 
 
     </Routes>

@@ -7,6 +7,10 @@
     background-color: #FFFFFF;
     height: 100px;
     box-shadow: 0px 4px 4px 0px #00000040;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
 }
 .logo-div2{
     width: 182px;
@@ -22,9 +26,15 @@
     font-weight: 600;
     color: #000000;
     gap: 51px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 .nav2 ul li{
     padding:18px 12px;
+}
+.nav2 ul li:hover{
+    color: red;
+    opacity: 50%;
 }
 .header-btn2{
     width: 180px;

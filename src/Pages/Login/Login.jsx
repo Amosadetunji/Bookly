@@ -8,7 +8,8 @@ import { FaGoogle } from "react-icons/fa";
 import { SiApple } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa";
 import { PiRectangle } from "react-icons/pi";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 import axios from 'axios'
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
@@ -66,7 +67,7 @@ const Login = () => {
               // setLoader(false)
               if (response.status === 200) {
                   setInterval(() => { 
-                      navigate('/signup')
+                      navigate('/Myaccount')
                   }, 2000);
               }
           })
@@ -109,8 +110,11 @@ const Login = () => {
                   {error?.password && <span>{error?.password}</span>}
                 </div>
                 <div className='forgot'>
-                <p><PiRectangle className='rectangle'/>Remember password</p>
-                <span>Forgot password?</span>
+                  <div className='forgot-got'>
+                  <PiRectangle className='rectangle'/>
+                  <p>Remember password</p>
+                  </div>
+                <Link to='/forgotpassword'><span>Forgot password?</span></Link>
                 </div>
                 <button type="Submit">Submit</button>
                 <h3>Don’t have an account?<span onClick={handleLogin}> Sign Up </span></h3>

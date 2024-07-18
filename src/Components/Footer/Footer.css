@@ -11,6 +11,12 @@
 .backarrow{
     font-size: 28px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.backarrow:hover{
+    color: #FFFFFF;
+    opacity: 50%;
 }
 .back h2{
     font-family: 'Nunito Sans', sans-serif;
@@ -38,15 +44,11 @@
     padding-top: 29px;
 }
 .booklyfooter-p p{
-    /* width:293px ; */
     font-family: 'Nunito Sans', sans-serif;
     font-size:18px ;
     font-weight:500 ;
-    line-height: 15px;
+    line-height: 25px;
     color: #FFFFFF;
-}
-.booklyfooter-p .pppp{
-    padding-bottom:10px ;
 }
 .booklyfooter-p h2{
     font-family: 'Nunito Sans', sans-serif;
@@ -75,6 +77,7 @@
     width: 292px;
     max-width: 100%;
     position: relative;
+
 }
 .booklyfooter-form input{
     /* width: 292px; */
@@ -90,6 +93,7 @@
     color: #FFFFFF;
     border-radius: 15px;
     width: 100%;
+    border: none;
 }
 .booklyfooter-form button{
     width: 70px;

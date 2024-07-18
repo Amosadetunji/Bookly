@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 47px;
+  padding-top: 147px;
   padding-left: 105px;
   padding-right: 105px;
 }
@@ -49,7 +49,6 @@
   color: #ffffff;
 }
 .search-brd {
-  width: 1310px;
   height: 210px;
   margin-left: 105px;
   margin-right: 105px;
@@ -60,23 +59,20 @@
   border: none;
   background-color: #c4c4c44d;
   padding-top: 30px;
-  padding-left: 37px;
+  padding: 37px;
 }
 .searchdiv {
   padding-top: 16px;
   display: flex;
-  background-color: transparent ;
+  background-color: transparent;
+  width: 100%;
   /* background-color: #c4c4c44d; */
-
-  
 }
 .searchdiv-div {
-    border-radius: 20px;
-  width: 1044px;
+  border-radius: 20px;
   height: 78px;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   /* background-color: #c4c4c44d; */
-
   border-radius: 20px;
   display: flex;
   gap: 1px;
@@ -84,16 +80,31 @@
 .searchdiv-select {
   /* height: 78px; */
   height: 100%;
+  width: 230px;
+  border: none;
+  opacity: 70%;
+  /* border-right: 1px solid #000000; */
+  gap: 2px;
+  /* border-radius: 20px; */
+  padding: 0 20px;
+}
+.searchdiv-select1 {
+  /* height: 78px; */
+  height: 100%;
   width: 217px;
   border: none;
   opacity: 70%;
   /* border-right: 1px solid #000000; */
   gap: 2px;
-  border-radius: 20px;
-
+  border-radius: 20px 0 0 20px;
+  padding: 0 20px;
 }
 .searchdiv button {
-  width: 100%;
+  width: 264px;
+  background-color: #212121;
+  color: #ffffff;
+
+  border-radius: 20px;
 }
 .cartbook {
   background-color: #212121;
@@ -109,9 +120,10 @@
   padding-left: 45px;
 }
 .cartbook-div {
-  display: flex;
-  gap: 104.5px;
+  /* display: flex; */
+  /* gap: 104.5px; */
   margin-top: 51px;
+  /* overflow-x: scroll; */
 }
 .cartbook-select h3 {
   font-family: "Nunito Sans", sans-serif;
@@ -142,9 +154,17 @@
   background-color: #e77d2c;
   margin-left: 58px;
   text-align: center;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
 }
+.cartbook-select button:hover{
+  color: #ffffff;
+  opacity: 50%;
+}
+
 .showmore-btn {
   margin-top: 84px;
+  padding-left: 491px;
 }
 .showmore-btn button {
   width: 299px;
@@ -158,11 +178,26 @@
   /* margin-left: 391px; */
   text-align: center;
   margin-bottom: 67px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.showmore-btn button:hover{
+  color: #ffffff;
+  opacity: 50%;
+}
+.big-container{
+  position: relative;
+}
+.orange-half {
+  position: absolute;
+  z-index: 0.5;
+  bottom: 400px;
 }
 .trust {
   padding-top: 107px;
   padding-left: 107px;
   padding-right: 107px;
+  position: relative;
 }
 .our-word h3 {
   font-family: "Nunito Sans", sans-serif;
@@ -232,4 +267,54 @@
   margin-top: 28px;
   border-radius: 20px;
   border: 1px solid #e77d2c;
+}
+
+/* styling for the search section */
+.select-con {
+  border-radius: 20px;
+  background-color: #ffff;
+  display: flex;
+  width: 1158px;
+  gap: 2px;
+  margin: auto;
+}
+.select-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  background-color: transparent;
+  height: 78px;
+  padding: 0 20px;
+}
+.select-flex p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27.28px;
+}
+.search-brd h3 {
+  width: 1158px;
+  margin: auto;
+  padding-bottom: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40.92px;
+}
+.line {
+  width: 1px;
+  background-color: #000000;
+  opacity: 70px;
+}
+.select-con button {
+  width: 264px;
+  background-color: #212121;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34.1px;
+
+  border-radius: 20px;
 }

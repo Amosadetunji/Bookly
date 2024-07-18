@@ -7,9 +7,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 const Footer = () => {
+    const top = () => {
+        window.scrollTo(0,1);
+    };
   return (
     <div className='footercontainer'>
-        <div className='back'>
+        <div className='back' onClick={top}>
             <MdKeyboardDoubleArrowUp className='backarrow'/>
             <h2>BACK TO TOP</h2>
         </div>
@@ -25,12 +28,12 @@ veniam, </p>
             </div>
             <div className='booklyfooter-p'>
                 <h2>Catatogues</h2>
-                <p className='pppp'>Senior School 1</p>
-                <p className='pppp'>Senior School 2</p>
-                <p className='pppp'>Senior School 3</p>
-                <p className='pppp'>Senior School 1</p>
-                <p className='pppp'>Senior School 2</p>
-                <p className='pppp'>Senior School 3</p>
+                <p>Senior School 1</p>
+                <p>Senior School 2</p>
+                <p>Senior School 3</p>
+                <p>Senior School 1</p>
+                <p>Senior School 2</p>
+                <p>Senior School 3</p>
                 <p>Senior School 1</p>
             </div>
             <div className='booklyfooter-p'>
@@ -47,7 +50,7 @@ veniam, </p>
             </div>
         </div>
         <div className='downfooter-div'>
-            <p><FaRegCopyright/>Copyright 2022. All rights reserved. </p>
+            <p><FaRegCopyright />Copyright 2022. All rights reserved. </p>
             <p>Made from all the goodness in the dough.</p>
         </div>
         

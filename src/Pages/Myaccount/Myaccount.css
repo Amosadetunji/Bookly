@@ -1,0 +1,302 @@
+.myaccount-header{
+    background-color: #212121;
+    padding-top: 137px;
+    padding-left: 104px;
+}
+.myaccount-top h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding-bottom: 37px;
+}
+.myaccount-top p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+
+
+
+.myselect-con {
+  border-radius: 15px;
+  background-color: #ffff;
+  display: flex;
+  width: 502px;
+  gap: 2px;
+}
+.myselect-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100.4px;
+  background-color: transparent;
+  height: 60px;
+  padding: 0 15px;
+}
+.myselect-flex p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20.46px;
+}
+.myline{
+  width: 1px;
+  background-color: #000000;
+  opacity: 70px;
+}
+.myselect-con button {
+  width: 96px;
+  height: 60px;
+  background-color: #E77D2C;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.myaccount-top1 h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 51.83px;
+  color: #FFFFFF;
+  padding-top: 36px;
+  padding-bottom: 25px;
+  padding-left: 469px;  
+}
+/* .myaccount-img{
+    display: flex;
+    gap: 104px;
+    padding-bottom: 87px;
+}
+.myaccount-img1{
+    display: flex;
+    gap: 104px;
+    padding-bottom: 81px;
+} */
+.splidegap{
+  height: 87px;
+}
+.splidegap1{
+  height: 81px;
+}
+.mybook-con{
+  padding-left: 104px;
+  padding-top: 74px;
+  padding-bottom: 107px;
+  display: flex;
+  gap: 107px;
+}
+.mybookdiv{
+  display: flex;
+  gap: 115px;
+}
+.mybookdiv1{
+  display: flex;
+  gap: 115px;
+  padding-top: 58px;
+}
+.mybookdiv-item{
+  padding-top: 62px;
+}
+.mybookdiv-item h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  padding-bottom: 29px;
+}
+.mybookdiv-item h2 span{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #E87E2E;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+.mybookdiv-item p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  color: #000000;
+  padding-bottom: 94px;
+}
+
+.mybookdiv-item1{
+  display: flex;
+  gap: 75px;
+  padding-bottom: 96px;
+}
+.mybookdiv-items1 h3{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 25px;
+  color: #E87E2E;
+}
+.mybookdiv-items1 h4{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  color: #000000;
+}
+.mybookdiv-item button{
+  width: 165px;
+  height: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  color: #000000;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.mybookdiv-item button:hover{
+  color: #212121;
+  opacity: 50%;
+}
+.mybookdiv-arrow{
+  font-size: 16px;
+  padding-left: 2px;
+}
+.otherbooks-con{
+  display: flex;
+  background-color: #212121;
+  border: 1px solid #212121;
+  gap: 66px;
+}
+.subject-con{
+  background-color: #FFFFFF;
+}
+.subject-con p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 60px;
+  padding-left: 99px;
+  padding-right: 23px;
+}
+.otherbooks-div{
+  padding-top: 34px;
+}
+.otherbooks-div h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 25px;
+  padding-left: 343px;
+  padding-bottom: 45px;
+  color: #FFFFFF;
+}
+.otherbooks-img{
+  display: flex;
+  gap: 64px;
+}
+.otherbooks-img1{
+  display: flex;
+  gap:64px ;
+  padding-top: 50px;
+}
+.logo-contain{
+  padding-top: 43px;
+  padding-bottom: 100px;
+}
+.logo-contain h2{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-contain h2 span{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color:#E87E2E;
+}
+.logocontain-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  gap: 35px;
+
+}
+.logo-border{
+  width: 65px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.smile-con{
+  display: flex;
+  background-color: #6B6561;
+}
+.smile-item{
+  padding-top: 55px;
+  padding-bottom: 59px;
+}
+.smile-item h2{
+  padding-left: 93px;
+  font-family: "Oleo Script", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 60px;
+  color:#FFFFFF;
+}
+.smile-line{
+  margin-left: 245px;
+  margin-top: 33px;
+  margin-bottom: 37px;
+  width: 198px;
+  border: 2px solid #FFFFFF
+}
+.smile-item p{
+  padding-left: 72px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 35px;
+  color:#FFFFFF;
+}
+.smile-item button{
+  margin-left: 226px;
+  margin-top: 43px;
+  width: 218px;
+  height: 50px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 25px;
+  color:#FFFFFF;
+  background-color: #E87E2E;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.smile-item button:hover{
+  color: #FFFFFF;
+  opacity: 50%;
+}

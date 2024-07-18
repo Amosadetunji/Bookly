@@ -1,6 +1,7 @@
 .login-content{
     display: block;
     align-items: center;
+    padding-top: 100px;
     padding-left: 103px;
     padding-right: 105px;
 }
@@ -70,6 +71,13 @@
     align-items: center;
     padding-top: 52px;
     padding-bottom: 103px;
+}
+.forgot-got{
+    display: flex;
+    align-items: center;
+}
+.rectangle{
+    font-size: 25px;
 }
 .forgot .rectangle{
     font-size: 25px;
