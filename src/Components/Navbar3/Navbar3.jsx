@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Navbar3 = () => {
-    const navigate = useNavigate()
-  const handleLogin = () => {navigate('/login')}
+  //   const navigate = useNavigate()
+  // const handleLogin = () => {navigate('/login')}
   return (
     <header className='header-container3'>
      <div className='logo-div3'>
