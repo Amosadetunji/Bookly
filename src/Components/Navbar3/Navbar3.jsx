@@ -19,7 +19,7 @@ const Navbar3 = () => {
         <li>Categories</li>
         <li>Request a book</li>
         <li>Cart <GiShoppingCart className='icon3'/></li>
-        <button className='header-btn3' onClick={handleLogin}>My Account</button>
+        <button className='header-btn3'>My Account</button>
     </ul>
     
 </nav>
